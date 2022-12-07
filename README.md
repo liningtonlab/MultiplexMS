@@ -1,11 +1,14 @@
 # MultiplexMS - Companion tool
 This repository contains the source code of the
 MultiplexMS - Companion tool. <br> 
-The compiled versions (for Win and MacOS) of the tool can be found in the 
+The compiled versions (for Windows and MacOS) of the tool can be found in the 
 [Releases](https://github.com/liningtonlab/MultiplexMS/releases) section on 
 the right-hand side. 
 
 ## How to use the tool
+
+After downloading the right version for your OS, just open the standalone tool.
+It might take a moment to start (~10-15 s).
 
 A detailed instruction on how to perform the MultiplexMS workflow can be found 
 [here](https://liningtonlab.github.io/MultiplexMS_documentation/).

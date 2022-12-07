@@ -48,7 +48,7 @@ exe = EXE(pyz,
 info_plist = {'addition_prop': 'additional_value'}
 app = BUNDLE(exe,
              name='MultiplexMS - Companion tool.app',
-             icon='gui_images/icon.icns'
+             icon='gui_images/icon.icns',
              bundle_identifier=None,
              info_plist=info_plist
             )
