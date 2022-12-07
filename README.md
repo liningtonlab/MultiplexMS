@@ -47,7 +47,7 @@ executable can be found in **dist**.
 1.0 - Presubmission
 
 ## Feedback
-For feedback, questions or comments, please contact either 
+For feedback, questions or comments, please contact either of the following
 - [Michael J. J. Recchia](mailto:michael_recchia@sfu.ca)
 - [Tim U. H. Baumeister](mailto:tim.baumeister@gmx.de)
-- [Roger G. Linington](mailto:rliningt@sfu.ca)
+- [Roger G. Linington](mailto:rliningt@sfu.ca) (corresponding author)

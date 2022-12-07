@@ -206,7 +206,7 @@ def main():
         combined_grids = mms.combine_grids(args.grids)
 
         print(f'Reading the feature ({args.feature_table_format}) table and binarize it')
-        samples_in_columns = args.feature_table_format == 'samples in columns'
+        samples_in_columns = args.feature_table_format == 'Samples in columns'
         fpt = mms.prepare_user_feature_presence_table(args.feature_presence_table,
                                                       samples_in_columns)
 
@@ -225,7 +225,7 @@ def main():
 
         print('-+-+-+-+-+-+-+-+-+-+-+-+-+-+-')
         print(f'Reading deconvoluted feature table ({args.feature_table_format}) table')
-        samples_in_columns = args.feature_table_format == 'samples in columns'
+        samples_in_columns = args.feature_table_format == 'Samples in columns'
         fpt = mms.prepare_user_feature_presence_table(args.feature_presence_table,
                                                       samples_in_columns)
 
