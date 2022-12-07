@@ -206,8 +206,9 @@ def main():
         combined_grids = mms.combine_grids(args.grids)
 
         print(f'Reading the feature ({args.feature_table_format}) table and binarize it')
+        samples_in_columns = args.feature_table_format == 'samples in columns'
         fpt = mms.prepare_user_feature_presence_table(args.feature_presence_table,
-                                                      args.feature_table_format)
+                                                      samples_in_columns)
 
         print('Verifying that pooled sample names match between grids and the feature table')
         mms.verify_pooled_sample_names(feature_presence_table=fpt,
@@ -224,8 +225,9 @@ def main():
 
         print('-+-+-+-+-+-+-+-+-+-+-+-+-+-+-')
         print(f'Reading deconvoluted feature table ({args.feature_table_format}) table')
+        samples_in_columns = args.feature_table_format == 'samples in columns'
         fpt = mms.prepare_user_feature_presence_table(args.feature_presence_table,
-                                                      args.feature_table_format)
+                                                      samples_in_columns)
 
         print('Checking deconvoluted feature table')
         mms.remove_features_from_table(feature_presence_table=fpt,
