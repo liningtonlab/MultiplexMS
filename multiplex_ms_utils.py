@@ -290,9 +290,6 @@ def create_user_tables_output(sample_names: list, r: int = 10, rel_path: str = "
         preparation_table_rearranged.T.to_csv(
             Path(rel_path, 'preparation_tables', f"{grid_name}rearranged_preparation_table{experiment_tag}.csv"))
 
-        if verbose:
-            print('-+-+-+-+-+-+-+-+-+-+-+-+-+-+-\n')
-
     return
 
 
