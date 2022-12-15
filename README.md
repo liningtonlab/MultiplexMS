@@ -14,14 +14,15 @@ A detailed instruction on how to perform the MultiplexMS workflow can be found
 [here](https://liningtonlab.github.io/MultiplexMS_documentation/).
 
 ## How to compile
-In case, you modify the script and desire to recompile the Companion tool, 
-please follow the instructions
-Prerequisites: Python 3.8 and [PyInstaller](https://pyinstaller.org/en/stable/)
-[miniconda](https://docs.conda.io/en/latest/miniconda.html) / [Anaconda](https://docs.anaconda.com/anaconda/install/index.html) (optional). <br>
+If you want to modify the script and desire to recompile the Companion tool, 
+please follow the instructions below.<br>
+Prerequisites: Python 3.8 and [PyInstaller](https://pyinstaller.org/en/stable/), 
+[miniconda](https://docs.conda.io/en/latest/miniconda.html) or [Anaconda](https://docs.anaconda.com/anaconda/install/index.html). <br>
 
 Download / Clone the repository and extract files into a folder ('MultiplexMS')
 
-Make changes to the _multiplex_ms_gui.py_ or _multiplex_ms_utils.py_ 
+Make changes to the _multiplex_ms_gui.py_, _multiplex_ms_utils.py_ or the _multiplex_ms_gui.spec_<br> 
+The _multiplex_ms_gui.spec_ file dictates Pyinstaller how to compile the .py scripts. 
 
 Compile the changed scripts, using the Terminal:
 
