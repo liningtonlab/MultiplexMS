@@ -119,7 +119,7 @@ def main():
                                       type=str, widget='FileChooser',
                                       gooey_options={
                                           'validator': {
-                                              'test': 'user_input.split(".")[1] == "csv"',
+                                              'test': 'user_input.split(".")[-1] == "csv"',
                                               'message': 'File needs to be a .csv file'
                                           }
                                       }
@@ -147,7 +147,7 @@ def main():
                                  type=str, widget='FileChooser',
                                  gooey_options={
                                      'validator': {
-                                         'test': 'user_input.split(".")[1] == "csv"',
+                                         'test': 'user_input.split(".")[-1] == "csv"',
                                          'message': 'File needs to be a .csv file'
                                      }
                                  }
