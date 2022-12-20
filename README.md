@@ -10,14 +10,24 @@ the right-hand side.
 After downloading the right version for your OS, just open the standalone tool.
 It might take a moment to start (~10-15 s).
 
+A demo dataset can be downloaded [here](https://github.com/liningtonlab/MultiplexMS/releases/download/v1.0.0/MultiplexMS_demo_data.zip).
+Around 5-10 min are needed to go through the demo dataset.
+
 A detailed instruction on how to perform the MultiplexMS workflow can be found 
 [here](https://liningtonlab.github.io/MultiplexMS_documentation/).
+
+## The MultiplexMS study
+All code and data that was used to produce plots in the MultiplexMS study are made available on
+Zenodo.
+<br>[Link to the Zenodo repository](https://zenodo.org/record/7460400#.Y6IJwnbMI2w) (doi.org/10.5281/zenodo.7460400)
+<br>Mass spectrometric data produced for the study was published on MassIVE.
+<br>[Link to MS dataset](https://doi.org/10.25345/C5SF2MH02) (dataset MSV000090912)  
 
 ## How to compile
 If you want to modify the script and desire to recompile the Companion tool, 
 please follow the instructions below.<br>
 Prerequisites: Python 3.8 and [PyInstaller](https://pyinstaller.org/en/stable/), 
-[miniconda](https://docs.conda.io/en/latest/miniconda.html) or [Anaconda](https://docs.anaconda.com/anaconda/install/index.html). <br>
+[miniconda](https://docs.conda.io/en/latest/miniconda.html) or [Anaconda](https://docs.anaconda.com/anaconda/install/index.html).<br>
 
 Download / Clone the repository and extract files into a folder ('MultiplexMS')
 
