@@ -302,22 +302,25 @@ def combine_grids(path_to_grids: str = ''):
     :return:
     """
 
+    INITIAL = '_initial'
+    REARRANGED = '_rearranged'
+
     grid_list = os.listdir(Path(path_to_grids))
 
-    initial = [initial for initial in grid_list if f"_initial.csv" in initial]
-    rearranged = [rearranged for rearranged in grid_list if f"_rearranged.csv" in rearranged]
+    initial = [initial for initial in grid_list if INITIAL in initial]
+    rearranged = [rearranged for rearranged in grid_list if REARRANGED in rearranged]
 
     file_count = len(initial) + len(rearranged)
     if file_count == 0:
-        raise FileNotFoundError('No grid files seem to be present in the selected folder or they have been'
+        raise FileNotFoundError('No grid files seem to be present in the selected folder or they have been '
                                 'renamed - the names should be grid_x_y_z.csv, whereby x indicates the '
                                 'grid number, y whether if it is the initial or rearranged version, and z '
-                                'the assigned experiment tag')
+                                'the assigned experiment tag (optional)')
 
     # Match initial.csv files with rearranged.csv files
     combined_grids = []
     for file in initial:
-        query = '_'.join(file.split('_')[:2]) + '_rearranged.csv'
+        query = file.replace(INITIAL, REARRANGED)
 
         corresponding_file = [hit for hit in rearranged if query == hit]
         if len(corresponding_file) == 0:
