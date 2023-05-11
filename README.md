@@ -10,10 +10,10 @@ the right-hand side.
 After downloading the right version for your OS, just open the standalone tool.
 It might take a moment to start (~10-15 s).
 
-A demo dataset can be downloaded [here](https://github.com/liningtonlab/MultiplexMS/releases).
-Around 5-10 min are needed to go through the demo dataset.
+A demo dataset with associated workflow instructions can be downloaded [here](https://github.com/liningtonlab/MultiplexMS/releases).
+Around 5-10 min are needed to go through the demo dataset. The instructions Test Document can be found in the MultiplexMS_demo_data.zip folder.
 
-A detailed instruction on how to perform the MultiplexMS workflow can be found 
+Further detailed instructions on how to perform the MultiplexMS workflow can be found 
 [here](https://liningtonlab.github.io/MultiplexMS_documentation/).
 
 ## The MultiplexMS study
